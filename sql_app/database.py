@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///../data/devolutiva_pdm.db"
+SQLALCHEMY_DATABASE_URL = "sqlite:///devolutiva_pdm.db"
 # PARA TROCAR PARA POSTGRES É SÓ MUDAR A LINHA CONFORME ABAIXO, COM A CONNECTION STRING
 # SQLALCHEMY_DATABASE_URL = "postgresql://user:password@postgresserver/db"
 
